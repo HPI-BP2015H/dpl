@@ -27,3 +27,11 @@ with https://github.com/travis-ci/dpl/tree/master/.
 
 When opening a PR, be sure to run at least one deployment with the new configuration,
 and provide a link to the build in the PR.
+
+# Testing the gem locally
+
+You can build and test the gem on your local machine with the following commands:
+```sh-session
+gem build dpl.gemspec
+gem install --local dpl-*.gem
+```
